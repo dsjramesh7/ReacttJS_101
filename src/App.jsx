@@ -7,6 +7,7 @@ import SiginIn from "./components/conditionalRendering/siginIn";
 import EventsHandling from "./components/eventHandlingUnderstanding/EventsHandling";
 import UseEffectHook from "./components/hooksUnderstandComponents/bUseEffectHookLearning/UseEffectHook";
 import DataFetching from "./components/hooksUnderstandComponents/bUseEffectHookLearning/DataFetching";
+import UseContextHook from "./components/hooksUnderstandComponents/cUseContextHookLearning/UseContextHook";
 
 function App() {
   const [text, setText] = useState("Hello World");
@@ -69,6 +70,7 @@ function App() {
 
         <div className="section-six">
           <h1>useContextHook Learning</h1>
+          <UseContextHook />
         </div>
       </div>
     </>

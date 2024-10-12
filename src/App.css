@@ -18,3 +18,14 @@
   display: flex;
   gap: 2rem;
 }
+
+#bg-container {
+  height: 200px;
+  width: 200px;
+  border: 1px solid red;
+  background-color: beige;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
