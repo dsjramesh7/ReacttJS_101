@@ -4,6 +4,7 @@ import UserCard from "./components/UserCard";
 import UseStateHook from "./components/hooksUnderstandComponents/aUseStateHookLearning/useStateHook";
 import SignOut from "./components/conditionalRendering/SignOut";
 import SiginIn from "./components/conditionalRendering/siginIn";
+import EventsHandling from "./components/eventHandlingUnderstanding/EventsHandling";
 
 function App() {
   const [text, setText] = useState("Hello World");
@@ -43,7 +44,7 @@ function App() {
           <UseStateHook />
         </div>
 
-        <div>
+        <div className="section-three">
           <h1>UnderStanding Conditional Rendering</h1>
           <div style={{ display: "flex", gap: "2rem" }}>
             {isLoggedIn ? (
@@ -53,6 +54,10 @@ function App() {
             )}
             {isLoggedIn && <SignOut />}
           </div>
+        </div>
+
+        <div className="section-four">
+          <EventsHandling />
         </div>
       </div>
     </>
