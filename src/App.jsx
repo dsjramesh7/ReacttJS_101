@@ -5,6 +5,8 @@ import UseStateHook from "./components/hooksUnderstandComponents/aUseStateHookLe
 import SignOut from "./components/conditionalRendering/SignOut";
 import SiginIn from "./components/conditionalRendering/siginIn";
 import EventsHandling from "./components/eventHandlingUnderstanding/EventsHandling";
+import UseEffectHook from "./components/hooksUnderstandComponents/bUseEffectHookLearning/UseEffectHook";
+import DataFetching from "./components/hooksUnderstandComponents/bUseEffectHookLearning/DataFetching";
 
 function App() {
   const [text, setText] = useState("Hello World");
@@ -58,6 +60,15 @@ function App() {
 
         <div className="section-four">
           <EventsHandling />
+        </div>
+
+        <div className="section-five">
+          <h1>useEffectHook Learning</h1>
+          {/* <UseEffectHook /> */}
+        </div>
+
+        <div className="section-six">
+          <h1>useContextHook Learning</h1>
         </div>
       </div>
     </>
