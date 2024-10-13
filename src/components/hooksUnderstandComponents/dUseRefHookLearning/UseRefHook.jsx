@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from "react";
+import StopWatch from "./StopWatch";
 
 const UseRefHook = () => {
   const [count, setCount] = useState(69);
@@ -22,13 +23,16 @@ const UseRefHook = () => {
     btnReference.current.style.background = "red";
   };
   return (
-    <div>
-      <h1>{count}</h1>
-      <button ref={btnReference} onClick={handleIncrement}>
-        Increment
-      </button>
-      <button onClick={changeColor}>Change Increment color</button>
-    </div>
+    <>
+      <div>
+        <h1>{count}</h1>
+        <button ref={btnReference} onClick={handleIncrement}>
+          Increment
+        </button>
+        <button onClick={changeColor}>Change Increment color</button>
+      </div>
+      <StopWatch />
+    </>
   );
 };
 
