@@ -8,6 +8,7 @@ import EventsHandling from "./components/eventHandlingUnderstanding/EventsHandli
 import UseEffectHook from "./components/hooksUnderstandComponents/bUseEffectHookLearning/UseEffectHook";
 import DataFetching from "./components/hooksUnderstandComponents/bUseEffectHookLearning/DataFetching";
 import UseContextHook from "./components/hooksUnderstandComponents/cUseContextHookLearning/UseContextHook";
+import UseRefHook from "./components/hooksUnderstandComponents/dUseRefHookLearning/UseRefHook";
 
 function App() {
   const [text, setText] = useState("Hello World");
@@ -71,6 +72,11 @@ function App() {
         <div className="section-six">
           <h1>useContextHook Learning</h1>
           <UseContextHook />
+        </div>
+
+        <div>
+          <h1>useRefHook Learning</h1>
+          <UseRefHook />
         </div>
       </div>
     </>
