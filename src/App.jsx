@@ -9,6 +9,8 @@ import UseEffectHook from "./components/hooksUnderstandComponents/bUseEffectHook
 import DataFetching from "./components/hooksUnderstandComponents/bUseEffectHookLearning/DataFetching";
 import UseContextHook from "./components/hooksUnderstandComponents/cUseContextHookLearning/UseContextHook";
 import UseRefHook from "./components/hooksUnderstandComponents/dUseRefHookLearning/UseRefHook";
+import UseMemoHook from "./components/hooksUnderstandComponents/eUseMemoHookLearning/UseMemoHook";
+import UseCallbackHook from "./components/hooksUnderstandComponents/fUseCallbackHookLearning/UseCallbackHook";
 
 function App() {
   const [text, setText] = useState("Hello World");
@@ -77,6 +79,16 @@ function App() {
         <div>
           <h1>useRefHook Learning</h1>
           <UseRefHook />
+        </div>
+
+        <div>
+          <h1>useMemo Learning</h1>
+          <UseMemoHook />
+        </div>
+
+        <div>
+          <h1>useCallbackHook Learning</h1>
+          <UseCallbackHook />
         </div>
       </div>
     </>
